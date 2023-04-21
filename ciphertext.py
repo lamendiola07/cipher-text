@@ -22,3 +22,12 @@ for c in message_text:
     
     else:
         message_text_ciphered = message_text_ciphered + c
+
+print(pyfiglet.figlet_format('\nHere is the Plain Text Version of the Message:', font ='bulbhead'))
+print(yellow(message_text,['bold','underlined']))
+
+print(pyfiglet.figlet_format('\nHere is the Key used for the Message:', font ='bulbhead'))
+print(yellow(message_keycode,['bold', 'underlined']))
+
+print(pyfiglet.figlet_format('\nHere is the Ciphered Version of the Message:', font ='bulbhead'))
+print(yellow(message_text_ciphered,['bold', 'underlined']))
