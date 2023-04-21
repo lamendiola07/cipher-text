@@ -3,6 +3,16 @@
 # Course:
 # Task: Program #3: Ciphered Text Using Vignere Cipher
 
+import pyfiglet
+from simple_colors import *
+
+print(yellow("\n\n------------------------------------------------------------------------ WELCOME BACK DEAR USER! <3 -----------------------------------------------------------------------------", ['bold']))
+print(yellow("-------------------------------------------------------THIS IS OUR THIRD PROGRAM IN OBJECTED ORIENTED PROGRAMMING!----------------------------------------------------------------", ['bold']))
+print(yellow("-------------------------------------------------NOW, FOR THIS PROGRAM WE WILL PRODUCE A CIPHERTEXT USING THE VIGNERE CIPHER------------------------------------------------------", ['bold']))
+print(red("\n\n---------------------------------------------------------------------------INITIATING SEQUENCE....-------------------------------------------------------------------------------", ['bold']))
+print(green("------------------------------------------------------------------------INITIATION SEQUENCE COMPLETE-------------------------------------------------------------------------------", ['bold']))
+
+
 import string
 
 message_text = "THISISTHELASTTASKHOORDAY"
